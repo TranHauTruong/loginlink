@@ -16,7 +16,7 @@ function login(event) {
         } 
 
          if (isChecked) {
-            window.location.href = "https://www.facebook.com/messenger_media?thread_id=100033265866819&attachment_id=1788119471531326&message_id=mid.%24cAAAB_AeXbzuI9ugmE2CxaLT3tn97";
+            window.location.href = "https://photos.google.com/u/0/photo/AF1QipOZb_7fSmLGZd6FKj1AIk60pstAH-l92AaRFcOg?hl=vi";
             console.log(1);
         } else {
             show.innerHTML = "đã đăng nhập sai";
