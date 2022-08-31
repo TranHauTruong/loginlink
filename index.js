@@ -11,13 +11,11 @@ function login(event) {
     let isChecked = false;
     function check(inputUsername, inputPassword) {
         if (inputUsername == username) {
-            console.log(1);
             isChecked = true;
         } 
 
          if (isChecked) {
             window.location.href = "https://photos.google.com/u/0/photo/AF1QipOZb_7fSmLGZd6FKj1AIk60pstAH-l92AaRFcOg?hl=vi";
-            console.log(1);
         } else {
             show.innerHTML = "đã đăng nhập sai";
         }
